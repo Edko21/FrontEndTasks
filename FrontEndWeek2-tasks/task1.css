@@ -1,0 +1,127 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+    margin: 0;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: darkblue;
+}
+
+ol{
+    border:2px solid green;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+ol li{
+    margin-left: 10px;
+}
+ol li:nth-child(1)::marker{
+    color:blue;
+}
+ol li:nth-child(2)::marker{
+    color: darkgreen;
+}
+ol li:nth-child(3)::marker{
+    color: red;
+}
+ol li:nth-child(4)::marker{
+    color: green;
+}
+ol li:nth-child(5)::marker{
+    color: red;
+}
+ol li:nth-child(6)::marker{
+    color: green;
+}
+ol li:nth-child(7)::marker{
+    color: purple;
+}
+li:nth-child(2){
+    background-color: white;
+    color: blue;
+}
+li:nth-child(3){
+    background-color:lightblue;
+}
+li:nth-child(6){
+    text-decoration: underline;
+}
+li:nth-child(7){
+    font-style: italic;
+}
+
+form{
+    border:2px solid green;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+label{
+    font-weight: bold;
+}
+label[form="last-name"]{
+    background-color: lightblue;
+}
+
+input{
+    border:2px solid green;
+}
+input[required]{
+    border: 2px solid red;
+}
+input:disabled{
+    cursor: not-allowed;
+}
+
+#name{
+    background-color: blue;
+}
+#last-name{
+    background-color:lightyellow;
+}
+#phoneNumber{
+    background-color: lightgrey;
+}
+
+a{
+    background-color: white;
+    color: red;
+    text-decoration: none;
+}
+a[href*="/блаблаб"]{
+    background-color: white;
+    color: green;
+    text-decoration: none;
+}
+a[href*="https"]{
+    color: darkgreen;
+    font-weight: bold;
+}
+[href*="https"]:hover{
+    background-color: white;
+    color: darkred
+    
+}
+a[href*="pdf"]{
+    background-color: white;
+    color: green;
+    font-style: italic;
+}
+a[href*="example"]{
+    background-color: white;
+    color: green;
+    text-decoration: underline;
+}
+
+button{
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+}
